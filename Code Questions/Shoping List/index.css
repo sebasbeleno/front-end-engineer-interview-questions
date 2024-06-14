@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 
+    app styles
+  */
+
+.componentWraper {
+  width: 100%;
+  margin: auto;
+  padding: 50px;
+}
+
+.title {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.input {
+  width: 100%;
+}
+
+.result {
+  border: 1px solid #000;
+  margin-top: 5px;
+  overflow-y: scroll;
+  height: 200px;
+}
+
+.resultItem {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5px;
+  padding: 10px;
+  align-items: center;
+}
+
+.itemCompleted {
+  text-decoration-line: line-through;
+}
+
+.rightItemComponent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.checkItem {
+  margin-right: 5px;
+  border: 1px solid;
+  padding: 2px;
+  border-radius: 100%;
+}
+
+.hide {
+    display: none;
+}
