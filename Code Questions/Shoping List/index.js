@@ -134,3 +134,7 @@ function closeSearchResultComponent() {
 function openSearchResultComponent() {
   resultComponent.className = "result"
 }
+
+function clearUserInput() {
+  input.vale = ""
+}
